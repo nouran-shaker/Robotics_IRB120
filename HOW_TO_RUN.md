@@ -17,10 +17,10 @@ You must start with the MATLAB Toolbox script. This file is responsible for sett
 ### Step 2: Run the Analytical Models (In Order)
 Once the workspace is seeded with the IK solutions, navigate to the analytical scripts folder. You must run these files sequentially based on their numbering to build the mathematical model step-by-step:
 
-1. **`1_robot_params.m`**: Initializes the DH parameters, masses, and inertias.
-2. **`2_forward_kinematics.m`**: Computes the Forward Kinematics and verifies the spatial frames.
-3. **`3_jacobian.m`**: Calculates the Geometric Jacobian and analyzes singularities.
-4. **`4_irb120_dynamics.m`**: Computes the Inertia, Coriolis, and Gravity matrices using Euler-Lagrange equations.
+1. **`robot_params.m`**: Initializes the DH parameters, masses, and inertias.
+2. **`forward_kinematics.m`**: Computes the Forward Kinematics and verifies the spatial frames.
+3. **`jacobian.m`**: Calculates the Geometric Jacobian and analyzes singularities.
+4. **`irb120_dynamics.m`**: Computes the Inertia, Coriolis, and Gravity matrices using Euler-Lagrange equations.
 
 ### Step 3: Run the Results Comparison
 **File to run:** `[compare_methods.m]`

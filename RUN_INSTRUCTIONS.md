@@ -25,6 +25,13 @@ Once the workspace is seeded with the IK solutions, navigate to the analytical s
 ### Step 3: Run the Results Comparison
 **File to run:** `[compare_methods.m]`
 
+### Step 4: Execute the Simscape Physical Simulation
+**File to run:** `irb120_plant.slx` (located in the Simscape_Simulation folder)
+
+Once Steps 1 through 3 are complete, all necessary trajectory and dynamic control parameters will be loaded into the Base Workspace.
+* **What to do:** Open the `.slx` file in Simulink and click **Run**.
+* **Expected Output:** The Simscape Mechanics Explorer window will automatically open, demonstrating the 3D solid CAD mesh of the ABB IRB 120 physically executing the planned pick-and-place task under closed-loop PID control.
+
 After both the toolbox and analytical workspaces are fully populated, run the comparison script.
 * **What it does:** This script aligns the two methodologies, applies the necessary parallel-axis shifts for inertia, and calculates the maximum absolute errors for the Jacobian, Inertia Matrix, Gravity Vector, and Coriolis terms. 
 * **Expected Output:** The error tables will print directly to the MATLAB Command Window (expected dynamic variance is mathematically negligible, typically around `1e-11` N·m).

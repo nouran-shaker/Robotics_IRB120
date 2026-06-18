@@ -23,6 +23,3 @@ Because the mathematical models, toolbox scripts, and Simulink plant share traje
 
 Please refer to the [RUN_INSTRUCTIONS.md](RUN_INSTRUCTIONS.md) file in this repository for the exact step-by-step guide on how to initialize the workspace and run the simulations.
 
-## 👥 Authors
-* **Nouran Mohamed Shaker** (Mechatronics and Robotics Engineering)
-* *(Add your team members here)*
